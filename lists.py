@@ -1,4 +1,5 @@
 # Creazione di una lista vuota
+'''
 lista = []
 
 # Creazione di una lista contentente elementi
@@ -16,12 +17,12 @@ lista.append(1500)
 # Sconsigliato creare liste con elementi di tipo diverso
 
 # Ordinamento di liste
+
 print("Lista prima dell'ordinamento")
 print(lista)
 lista.sort() # Ordina la lista, dopo averla chiamata lista è ordinata
 print("Lista dopo l'ordinamento")
 print(lista)
-
 ordinata = lista.sorted() # Altra funzone, restituisce una nuova lista, ordinata
 
 # Estrazione sotto-liste, come per le stringhe
@@ -46,3 +47,15 @@ print(f"Posizione: {indice}")
 # Funzioni aritmetiche sugli elementi della lista, es. somma di tutti gli elementi
 somma = sum(lista)
 print(somma)
+'''
+
+diz_studenti = {"012345":"Mario Rossi","012346":"Pippo Baudo"}
+#oppure
+lst_matr = ["012345","012346"]
+lst_nomi = ["Mario Rossi", "Pippo Baudo"]
+
+#alias di una lista, non copia profonda:
+lst_copy = list(lst_nomi)
+
+
+
